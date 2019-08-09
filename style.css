@@ -1,0 +1,28 @@
+.container{
+	display: flex; /*That's how we activate flex*/
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+h1{
+	font-family: 'Germania One', cursive;;
+	font-size: 3em;
+	border-bottom: 5px solid pink;
+	border-right: 5px solid pink; 
+	width: 350px;
+	text-align: center; 
+}
+
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 0.5s;
+}
+
+
+img:hover{
+	transform: scale(1.1);
+}
